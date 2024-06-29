@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    
+    <title>Mona Tours</title>
+</head>
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">
+                &nbsp;
+            </span>
+        </label>
+        <div class="navigation__background">
+            &nbsp;
+        </div>
+        <div class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#section-stories" class="navigation__link nav-link">Mona Tours عن</a></li>
+                <li class="navigation__item"><a href="#section-tours" class="navigation__link nav-link">خدمات</a></li>
+                <li class="navigation__item"><a href="#section-features" class="navigation__link nav-link">ما يميزنا</a></li>
+                <li class="navigation__item"><a href="#book" class="navigation__link nav-link">تواصل معنا</a></li>
+
+            </ul>   
+        </div>
+    </div>
+
+<script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            document.getElementById('navi-toggle').checked = false;
+        });
+    });
+</script>
+
+    <header class="header">
+        <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/videoplayback_ko4wWaAh.mp4" type="video/mp4">
+                     Your Browser is not supported !
+                </video>
+        <div class="logo-box">
+            <img src="img/favicon.png" alt="logo" class="logo">
+        </div>
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">
+                    <span style="color: Chocolate;">Mona</span>
+                    <span style="color: DarkSlateBlue;">Tours</span>
+                </span>                    
+                <span style="font-family: 'Scheherazade', serif; font-size: 30px;">رحلات سياحية مميزة لأجمل الأماكن حول العالم</span>
+            </h1>
+            <a href="#section-tours" class="btn btn-white btn-animated">اكتشف جولاتنا</a>
+        </div>
+    </header>    
+    <main>
+        <section class="section-about">
+            <div class="col-1 u-center-text u-margin-bottom-8">
+                <h2 class="heading-secondary">جولات مثيرة للأشخاص المغامرين</h2>  
+            </div>
+            <div class="row">
+                <div class="col-1 u-center-text">
+                    <h3 style="color: DarkSlateBlue;" class="heading-tertiary u-margin-bottom-2">عروض رخيصة</h3>
+                    <p dir="rtl" class="paragraph">
+                        استمتع بأفضل الأسعار على باقات السفر لدينا.
+                        احجز الآن واستفد من الخصومات الحصرية.
+                        عروضنا تناسب جميع الميزانيات وتوفر تجربة فريدة.
+                        رحلات مميزة بأسعار تنافسية لأجمل الوجهات.
+                        لا تفوت فرصة السفر بأقل التكاليف معنا.
+                    </p>  
+                    <h3 style="color: DarkSlateBlue;" class="heading-tertiary u-margin-bottom-2">استكشف أجمل المناطق السياحية حول العالم</h3>
+                    <p class="paragraph">
+                        استكشف أجمل المناطق السياحية حول العالم. جولات متنوعة تشمل المدن الساحلية والريفية. اكتشف الثقافات المختلفة مع جولاتنا المميزة.
+                        جولاتنا تغطي جميع المناطق من الشمال إلى الجنوب. احجز جولتك الآن واستمتع بتجربة لا تُنسى في مختلف المناطق.
+                    </p> 
+                    <a href="https://www.monatours.co.il/" class="btn-text">للمزيد من التفاصيل &rarr;</a>
+                </div>
+                <div class="col-1 u-center-text">
+                    <div class="composition">
+                        <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                        <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                        <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="section-features" id="section-features">
+            <div class="row">
+                <div class="col-4">
+                    <div class="feature-box u-center-text">
+                        <i class="feature-box__icon icon-basic-world"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-2">اكتشف العالم</h3>
+                        <p class="feature-box__text">
+                            جولاتنا تغطي جميع المناطق من الشمال إلى الجنوب.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="feature-box u-center-text">
+                        <i class="feature-box__icon icon-basic-diamonds"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-2">أقل التكاليف</h3>
+                        <p class="feature-box__text">
+                            عروضنا تناسب جميع الميزانيات وتوفر تجربة فريدة.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="feature-box u-center-text">
+                        <i class="feature-box__icon icon-basic-share"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-2">خصوصية بيانات</h3>
+                        <p class="feature-box__text">
+                            نحترم خصوصيتك ونتعهد بحماية بياناتك الشخصية.
+                            بياناتك محمية بتقنيات أمان متقدمة لضمان سرية معلوماتك.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="feature-box u-center-text">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-2">دعم فني</h3>
+                        <p class="feature-box__text"> 
+                            فريقنا جاهز لمساعدتك في أي وقت من اليوم أو الليل.
+                            خدماتنا لا تتوقف لتلبية احتياجاتك في أي وقت.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-tours" id="section-tours">
+            <div class="u-center-text u-margin-bottom-8">
+                <h2 class="heading-secondary">خدماتنا</h2>  
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">حجز طيران</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>طياران لكل العالم</li>
+                                    <li>حقائب 20 كغم</li>
+                                    <li>أماكن مريحة</li>
+                                    <li>خدمات ممتازة</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">فقط</p>
+                                    <p class="card__price-value">$100</p>
+                                </div>
+                                <a href="https://www.monatours.co.il/flight-landing-page.html" class="btn btn-white">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">عروض منتظمة</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>شامل طيران</li>
+                                    <li>شامل مواصلات</li>
+                                    <li>شامل فنادق</li>
+                                    <li>شامل فعاليات</li>
+                                    <li>مرشد سياحي</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">ابتداء من</p>
+                                    <p class="card__price-value">$499</p>
+                                </div>
+                                <a href="https://www.monatours.co.il/tours.html" class="btn btn-white">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-3">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">طيران + أوتيل</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>أرخص العروض</li>
+                                    <li>يشمل وجبات</li>
+                                    <li>عروض لجميع المناطق</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">ابتداء من</p>
+                                    <p class="card__price-value">$290</p>
+                                </div>
+                                <a href="https://www.monatours.co.il/deals-landing-page.html" class="btn btn-white">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-big"></div>
+        </section>
+        <section id="section-stories" class="section-stories" >
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                        Your Browser is not supported!
+                </video>
+            </div>
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary u-margin-bottom-small">MONA TOURS عن</h2>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <div dir="rtl" class="story__text">
+                        <p>
+                            تأسست شركة منى تورز عام 1981، وهي إحدى شركات السياحة الرائدة في إسرائيل. تقدم الشركة خدمات سياحية وترفيهية تشمل الرحلات الجوية المنتظمة ورحلات الطيران العارض وباقات العطلات والفنادق وتأجير السيارات والرحلات المنظمة للأفراد والمجموعات. نحن نتعامل مع إصدار التأشيرات وتأمين السفر إلى الخارج، بالإضافة إلى ذلك، يقدم قسم السياحة الخارجية رحلات بحرية فاخرة ورحلات نهرية ويخوت وعروض سبا حصرية في أوروبا الشرقية ودول رابطة الدول المستقلة.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="book" class="section-book ">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-2">
+                                <h2 class="heading-secondary">احجز الآن</h2>  
+                            </div>
+                            <div class="form__group">
+                                <input type="text" id="name" class="form__input" placeholder="اسم الكامل" required>
+                                <label for="name" class="form__label">اسم الكامل</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" id="email" class="form__input" placeholder="رقم الهاتف" required>
+                                <label for="email" class="form__label">رقم الهاتف</label>
+                            </div>
+                            <div class="row u-margin-bottom-2">
+                                <div class="form__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span> مجموعة صغيرة
+                                        </label>
+                                    </div>
+                                </div>  
+                                <div class="form__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="large" name="size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span> مجموعة كبيرة
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <button class="btn btn--green">ارسل &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img src="img/favicon.png" alt="Full Logo" class="footer__logo">
+        </div>
+    </footer>
+</body>
+</html>
